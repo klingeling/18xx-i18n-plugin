@@ -413,7 +413,6 @@
       "Your watch list": "您的监视列表",
       "Upcoming and previous Steam sales": "即将到来的和之前的Steam特卖活动",
       "Current Steam Sales": "Steam 正在进行的促销",
-      "Free Promotions on Steam": "Steam 上的免费促销",
       "Steam Calculator": "Steam 计算器",
       "Steam Charts": "Steam 图表",
       "Patch notes": "补丁说明",
@@ -436,7 +435,10 @@
       "Steam Release Calendar": "Steam 发售日历",
       "Steam Game Release Summary": "Steam 游戏发售汇总",
       "How can you help SteamDB": "我该如何帮助 SteamDB",
-      "Free Packages": "免费软件包"
+      "Free Packages": "免费软件包",
+      "Free Promotions on Steam": "Steam 上的免费促销",
+      "Free Promotions": "免费促销",
+      "on Steam": "位于 Steam"
     },
     "h2,h2 *": {
       "SteamDB in numbers": "Steam 统计数据",
