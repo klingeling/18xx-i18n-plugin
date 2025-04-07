@@ -1,6 +1,6 @@
 {
   "DOC": {
-    "更新时间": "2023-08-13",
+    "更新时间": "2025-04-07",
     "文档说明": "STATIC: 静态元素字典, INPUT: 输入框字典, DYNAMIC: 动态元素字典",
     "STATIC说明": "key为CSS选择器,value为翻译字典. 只匹配被选择的元素中的textNode元素",
     "INPUT说明": "key为placeholder内容,value为翻译文本",
@@ -26,7 +26,7 @@
       "Patch notes": "补丁说明",
       "Search": "搜索",
       "Instant search": "渐进式搜索",
-      "When is next sale?": "下一次大促?",
+      "When is next sale?": "下一次大促？",
       "Tracking": " 追踪",
       "Apps": "APP",
       "Packages": "软件包",
@@ -81,6 +81,30 @@
       "in top sellers": " 畅销榜排名",
       "positive reviews": " 好评数",
       "negative reviews": " 差评数",
+      "Use slash key (": "使用快捷键 (",
+      ") to focus search from anywhere.": ") 可以随时打开搜索界面。",
+      "Use arrow keys (": "使用方向键 (",
+      "and": " 和 ",
+      ") to navigate suggestions, then": ") 可以选择搜索建议，然后",
+      "to go.": "跳转。",
+      "Use escape (": "使用退出键 (",
+      ") to close search.": ") 以关闭搜索。",
+      "Enter an appid to be redirected to the app page.": "输入 AppID 会直接跳转到应用详情页。",
+      "Enter a steamid (765...) to be redirected to calculator.": "输入 SteamID (765...) 会直接跳转到计算器。",
+      "Paste a profile link (/id/ or /profiles/) to be redirected to calculator.": "输入个人资料链接 (/id/ 或 /profiles/) 会直接跳转到计算器。",
+      "Paste any url that contains app/, sub/, bundle/, or depot/ to be redirected to the relevant page.": "输入任何包含 app/， sub/， bundle/， depot/ 的链接，会直接跳转到相应的详情页。",
+      "Search is powered by Algolia.": "搜索由 Algolia 提供支持。",
+      "Engines & technologies": "引擎 & 技术",
+      "Game tags": "游戏标签",
+      "Your Games": "你的游戏",
+      "Your Wishlist": "你的愿望单",
+      "Your Watchlist": "你的关注列表",
+      "Socials": "社交媒体",
+      "Mastodon": "Mastodon",
+      "X (Twitter)": "X (推特)",
+      "GitHub": "GitHub",
+      "Steam group": "Steam 组",
+      "Steam curator": "Steam 评测人",
       "viewers right now": " 当前观看人数"
     },
     "tr>th,tr>th>a,tr>th span": {
@@ -91,6 +115,9 @@
       "Most Played": "最常玩的",
       "Games": "游戏",
       "Players Now": "当前玩家",
+      "Players": "玩家",
+      "Now": "当前",
+      "Hot": "热门",
       "Peak Today": "今日峰值",
       "Trending": "热门",
       "Last 7 days": "7天走势",
@@ -222,7 +249,9 @@
       "Thai": "泰语",
       "Turkish": "土耳其语",
       "Ukrainian": "乌克兰语",
-      "Vietnamese": "越南语"
+      "Vietnamese": "越南语",
+      "Trending on SteamDB": "SteamDB 热门",
+      "Free": "免费"
     },
     "td,td>a,td>small": {
       "Yes": "✅是",
@@ -406,9 +435,12 @@
       "Unused": "未使用"
     },
     "i.muted": {
-      "empty string": "空"
+      "empty string": "空",
+      "(source: Store API)": "(来源: 商店 API)",
+      "(source: key activation)": "(来源: 激活密钥)",
+      "(source: free on demand; account page)": "(来源: 需求激活; 账号页面)"
     },
-    "h1,h1>span>a": {
+    "h1,h1>span,h1>span>a,h1>span>span": {
       "Database of everything on Steam.": "应有尽有的 Steam 数据库。",
       "Your watch list": "您的监视列表",
       "Upcoming and previous Steam sales": "即将到来的和之前的Steam特卖活动",
@@ -417,6 +449,8 @@
       "Steam Charts": "Steam 图表",
       "Patch notes": "补丁说明",
       "Bundles": "捆绑包",
+      "Global App History": "全球应用历史",
+      "SteamDB Blog": "SteamDB 博客",
       "Upcoming Steam Releases": "即将发售的 Steam 商品",
       "Join SteamDB's Discord": "\n加入 SteamDB 的 Discord 频道\n",
       "Frequently Asked Questions": "常见问题",
@@ -439,7 +473,7 @@
       "Free Packages": "免费软件包",
       "Free Promotions on Steam": "Steam 上的免费促销",
       "Free Promotions": "免费促销",
-      "on Steam": "位于 Steam"
+      "on Steam": "在 Steam"
     },
     "h2,h2 *": {
       "SteamDB in numbers": "Steam 统计数据",
@@ -551,6 +585,7 @@
       "Based on the configuration above, this is where we think the save files are located.": "根据以上配置，我们认为存档文件所在位置如下。",
       "Read more about cloud saves in Steamworks documentation.": "查阅 Steamworks 文档以了解更多关于云存档的信息。",
       "Price does not take into account what you already own.": "显示的价格不包含您已拥有的游戏的价格",
+      "Start typing to see game suggestions. This only suggests apps that have a store page.": "输入任何关键字来查看游戏建议. 在这里只会显示有商店页面的应用。",
       "Deleted bundles, bundles with no price in your currency, and bundles with no base discount are hidden from this page. You can use search in the navbar.": "已删除的捆绑包、没有以您的货币计价的捆绑包以及没有基本折扣的捆绑包将在此页面上隐藏.您可以使用导航栏中的搜索功能."
     },
     ".header-disclaimer": {
@@ -570,7 +605,10 @@
       "Browse and filter all current deals": "浏览和过滤正在进行的促销活动",
       "View all previous sale events…": "查看所有过去的促销活动…",
       "Steam News Pop-ups": "Steam 新闻广告",
-      "View all previous popups…": "查看所有过去的新闻广告…"
+      "View all previous popups…": "查看所有过去的新闻广告…",
+      "Browse all deals": "浏览所有交易",
+      "View all sale events…": "查看所有促销活动…",
+      "View all popups…": "查看所有新闻广告…"
     },
     ".container-stats em": {
       "apps in database": "APP总数",
@@ -595,7 +633,12 @@
       "New Music:": "新音乐: ",
       "Renamed:": "重命名: ",
       "Retired:": "停售: ",
-      "Removed from store:": "移除商店页: "
+      "Removed from store:": "移除商店页: ",
+      "Game": "游戏",
+      "Beta": "Beta",
+      "Demo": "DEMO",
+      ", Renamed:": ", 重命名:",
+      "DLC": "DLC"
     },
     ".welding-torch>span,.welding-torch>span>b": {
       "SteamDB has been running ad-free since 2012.": "SteamDB 自2012建立以来一直没有任何广告。",
@@ -696,11 +739,17 @@
       "Valve suggested prices are shown on package pages.": " Valve 建议定价仅在软件包页面显示."
     },
     ".text-center,.text-center>a": {
+      "Players": "玩家",
       "We limit upcoming releases view to 30 days by default.": "\n我们默认只显示未来30天内发布的游戏。",
       "View more app history entries…": "查看更多 APP 历史记录...",
       "View more package history entries…": "查看更多软件包历史记录..."
     },
     "#js-header-hamburger>span,a.btn,button,button>span": {
+      "Close": "关闭",
+      "← Prev": "← 上一页",
+      "Next →": "下一页 →",
+      "Open link": "打开链接",
+      "(Esc)": "(ESC)",
       "Menu": "菜单",
       "Calendar": "日历",
       "Past 7 day releases": "上一周发售的游戏",
@@ -831,7 +880,7 @@
       "This package is intended for developers and publishers only.": "当前软件包仅限开发商或发行商使用。",
       "Do you have a key for this package? (even if it was already used)": " 你有包含此软件包的激活码吗? (即使它已经被使用过)",
       "You can donate the key to SteamDB": "你可以将激活码捐赠给 SteamDB",
-      ", our bot will be able to update the package name.": ", 我们的机器人可以更新此软件包的名称."
+      ", our bot will be able to update the package name.": ", 我们的机器人可以更新此软件包的名称。"
     },
     ".panel>ol>li>a": {
       "For Developers and Publishers": "致开发商和发行商",
@@ -845,7 +894,7 @@
     },
     "panel>p": {
       "We track every new build on Steam, and try connect these builds to announcements by the game developers in their hub.": "我们跟踪 Steam 上的每个版本更新, 并尝试将这些更新与游戏开发者发布的更新公告联系起来。",
-      "We also automatically display the list of changed files for every single patch.": "我们还为每个更新自动显示文件改动列表."
+      "We also automatically display the list of changed files for every single patch.": "我们还为每个更新自动显示文件改动列表。"
     },
     ".discount-faq>p,.discount-faq>p>span,.discount-faq>p>a": {
       "Blue discount": "蓝色折扣",
@@ -911,7 +960,7 @@
       "We also do not allow scraping/crawling on SteamDB.": "我们也不允许在SteamDB上爬取数据",
       "We also do not allow scraping/crawling on SteamDB. Please get the information from Steam itself, take a look at": "我们也不允许在 SteamDB 上爬取数据. 请自行从 Steam 获取数据, 可以查阅 ",
       "\"How are we getting this information?\"": "“我们的资料从何而来?”",
-      "question above for more information.": " 节来了解更多信息."
+      "question above for more information.": " 节来了解更多信息。"
     },
     "span.muted": {
       "Package »": "软件包 »"
@@ -926,20 +975,29 @@
       "This build has not been seen in a public branch.": "这个版本没有在公开分支出现过。",
       "Filter history to a single key": " 按照指定的类型过滤历史记录"
     },
-    "#js-search-tips>p,#js-search-tips>ul>li,.header-search-enter": {
+    "#js-search-tips>p,#js-search-tips>ul>li,.header-search-enter,#js-search-tips>ul>li>a": {
       "Start typing to see game suggestions. This only suggests apps that have a store page.": "输入任何关键字来查看游戏建议. 在这里只会显示有商店页面的应用。",
       "Use slash key (": "使用快捷键 (",
       ") to focus search from anywhere.": ") 可以随时打开搜索界面。",
       "Use arrow keys (": "使用方向键 (",
       "and": " 和 ",
       ") to navigate suggestions.": ") 可以选择搜索建议。",
+      "Use escape (": "使用退出键 (",
+      ") to close search.": ") 以关闭搜索。",
       "Enter an appid to be redirected to the app page.": "输入 AppID 会直接跳转到应用详情页。",
       "Enter a steamid (765...) to be redirected to calculator.": "输入 SteamID (765...) 会直接跳转到计算器。",
       "Paste a profile link (/id/ or /profiles/) to be redirected to calculator.": "输入个人资料链接 (/id/ 或 /profiles/) 会直接跳转到计算器。",
-      "Paste any url that contains app/, sub/, bundle/, or depot/ to be redirected to the relevant page.": "输入任何包含 app/, sub/, bundle/, depot/ 的链接, 会直接跳转到相应的详情页。",
+      "Paste any url that contains app/, sub/, bundle/, or depot/ to be redirected to the relevant page.": "输入任何包含 app/， sub/， bundle/， depot/ 的链接，会直接跳转到相应的详情页。",
       "Click anywhere outside the search field to close this popup.": "点击搜索框外的任何地方可以退出此界面。",
       "Only apps with a store page are suggested.": "只有具有商店页面的 APP 才会显示在搜索提示中。",
-      "Submit to view all results.": "提交关键词查看所有结果."
+      "Search is powered by Algolia.": "搜索由 Algolia 提供支持。",
+      "Submit to view all results.": " 提交关键词查看所有结果。",
+      ") to navigate suggestions, then": ") 可以选择搜索建议，然后",
+      "to go.": "跳转。",
+      "View and filter in instant search.": " 在即时搜索中查看和过滤。"
+    },
+    ".header-search-side-close-inner": {
+      "Close ×": "关闭 ×"
     },
     ".global-announcement>div,.global-announcement>div>a": {
       "🙏 Help SteamDB continue tracking data by": "\n🙏 请帮助 SteamDB 继续追踪数据, 通过\n",
@@ -968,7 +1026,7 @@
       "3,000 points": "3,000 点数",
       "10,000 points": "10,000 点数",
       "Booster pack 1": "补充包 1",
-      "Click on a card to view large image.": "点击卡片查看大图."
+      "Click on a card to view large image.": "点击卡片查看大图。"
     },
     "option,.ms-drop span,.currency-selector>.btn,a.btn-tag,td.price-line,.label-link,.sale-filter": {
       "U.S. Dollar": " 美元 USD",
@@ -1518,6 +1576,12 @@
     "Find an answer: type some keywords": "输入关键字来查找解答"
   },
   "LABEL": {
+    "Perform search": "执行搜索",
+    "Open search": "打开搜索",
+    "Previous events": "上一个事件",
+    "Next events": "下一个事件",
+    "Previous messages": "上一个消息",
+    "Next messages": "下一个消息",
     "Toggle menu": "开关菜单",
     "Homepage": "主页",
     "Search": "搜索",
