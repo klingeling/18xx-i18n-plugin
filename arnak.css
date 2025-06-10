@@ -1,5 +1,5 @@
 #playeraid {
-    background-image: url('https://img.915159.xyz/Arnak/playeraid.png');
+    background: url('https://img.915159.xyz/Arnak/playeraid.png' !important;);
 }
 
 .card.back {
