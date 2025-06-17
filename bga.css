@@ -1,3 +1,7 @@
+.pp_loyalty_dial {
+    background-image: url(https://raw.githubusercontent.com/klingeling/18xx-i18n-plugin/images/loyalty_dial.png);
+}
+
 .pp_card_1 {
     background-image: url(https://raw.githubusercontent.com/klingeling/pax-pamir/master/cards/zh-cn/card_1.jpg);
     background-position-x: 0;
