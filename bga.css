@@ -1,5 +1,5 @@
 .pp_loyalty_dial {
-    background-image: url(https://raw.githubusercontent.com/klingeling/18xx-i18n-plugin/main/images/loyalty_dial.png);
+    background-image: url(https://raw.githubusercontent.com/klingeling/18xx-i18n-plugin/main/images/loyalty_dial.png) !important;
 }
 
 .pp_card_1 {
