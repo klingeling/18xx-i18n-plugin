@@ -70,22 +70,26 @@
 
 .pr_player_board[data-color=blue] {
     background-image: url(https://img.915159.xyz/paxrenaissance/boards_blue.png);
-    background-position-x: 0
+    background-position-x: 0;
+    background-size: 100% 100%;
 }
 
 .pr_player_board[data-color=green] {
     background-image: url(https://img.915159.xyz/paxrenaissance/boards_green.png);
-    background-position-x: 0
+    background-position-x: 0;
+    background-size: 100% 100%
 }
 
 .pr_player_board[data-color=purple] {
     background-image: url(https://img.915159.xyz/paxrenaissance/boards_purple.png);
-    background-position-x: 0
+    background-position-x: 0;
+    background-size: 100% 100%
 }
 
 .pr_player_board[data-color=yellow] {
     background-image: url(https://img.915159.xyz/paxrenaissance/boards_yellow.png);
-    background-position-x: 0
+    background-position-x: 0;
+    background-size: 100% 100%
 }
 
 /* .pr_player_board[data-color=black] {
