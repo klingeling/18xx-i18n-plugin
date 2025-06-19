@@ -67,3 +67,33 @@
     background-position-y: 66.6666666667%;
     background-size: 1000% 400%
 } */
+
+.pr_player_board[data-color=blue] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/boards_blue.png);
+    background-position-x: 0
+}
+
+.pr_player_board[data-color=green] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/boards_green.png);
+    background-position-x: 0
+}
+
+.pr_player_board[data-color=purple] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/boards_purple.png);
+    background-position-x: 0
+}
+
+.pr_player_board[data-color=yellow] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/boards_yellow.png);
+    background-position-x: 0
+}
+
+/* .pr_player_board[data-color=black] {
+    background-image: url(img/player_boards3.png);
+    background-position-x: 0
+} */
+
+/* .pr_player_board[data-color=white] {
+    background-image: url(img/player_boards3.png);
+    background-position-x: 100%
+} */
