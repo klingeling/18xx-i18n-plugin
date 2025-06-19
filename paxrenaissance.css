@@ -26,12 +26,12 @@
     background-size: 100% 100%
 }
 
-.pr_square_card[data-card-id=victory_ageOfByzantine_active] {
+/* .pr_square_card[data-card-id=victory_ageOfByzantine_active] {
     background-image: url(img/square_cards.jpg);
     background-position-x: 44.4444444444%;
     background-position-y: 66.6666666667%;
     background-size: 1000% 400%
-}
+} */
 
 .pr_square_card[data-card-id=victory_renaissance_inactive] {
     background-image: url(https://img.915159.xyz/paxrenaissance/victory_renaissance_inactive.png);
@@ -61,9 +61,9 @@
     background-size: 100% 100%
 }
 
-.pr_square_card[data-card-id=victory_ageOfByzantine_inactive] {
+/* .pr_square_card[data-card-id=victory_ageOfByzantine_inactive] {
     background-image: url(img/square_cards.jpg);
     background-position-x: 100%;
     background-position-y: 66.6666666667%;
     background-size: 1000% 400%
-}
+} */
