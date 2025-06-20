@@ -283,3 +283,83 @@
     background-position-y: 100%;
     background-size: 100% 100%
 } */
+
+.pr_square_card_icon[data-icon=king][data-bank=fugger] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_HolyRomanEmpire_king.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+.pr_square_card_icon[data-icon=king][data-bank=marchionni] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_Portugal_king.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+.pr_square_card_icon[data-icon=king][data-bank=coeur] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_Mamluk_king.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+.pr_square_card_icon[data-icon=king][data-bank=medici] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_PapalStates_king.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+.pr_square_card_icon[data-icon=king][data-bank=berenberg] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_France_king.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+/* .pr_square_card_icon[data-icon=king][data-bank=mendes] {
+    background-position-x: 22.2222222222%;
+    background-position-y: 100%
+} */
+
+.pr_square_card_icon[data-icon=republic][data-bank=fugger] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_HolyRomanEmpire_republic.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank=marchionni] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_Portugal_republic.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank=coeur] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_Mamluk_republic.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank=medici] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_PapalStates_republic.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+.pr_square_card_icon[data-icon=republic][data-bank=berenberg] {
+    background-image: url(https://img.915159.xyz/paxrenaissance/EmpireSquare_France_republic.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%
+}
+
+/* .pr_square_card_icon[data-icon=republic][data-bank=mendes] {
+    background-position-x: 33.3333333333%;
+    background-position-y: 100%
+} */
